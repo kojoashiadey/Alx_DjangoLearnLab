@@ -1,21 +1,24 @@
-LibraryProject
+Here’s a polished rephrased version of your **README.md**:
 
-This is my first Django project, created as part of the Introduction to Django assignment.
+---
 
-Steps Completed
+# LibraryProject
 
-Installed Django successfully
+This is my first Django project, created as part of the *Introduction to Django* assignment.
 
-Created a new project named LibraryProject
+## Steps Completed
 
-Ran the development server without errors
+* Installed Django successfully
+* Created a new project named **LibraryProject**
+* Ran the development server without errors
+* Began exploring Django’s default project structure
 
-Began exploring Django’s default project structure
+## Key Files
 
-Key Files
+* **settings.py** → Contains the project’s configurations
+* **urls.py** → Defines the URL patterns and routing
+* **manage.py** → Command-line tool to interact with the project
 
-settings.py → Contains the project’s configurations
+---
 
-urls.py → Defines the URL patterns and routing
-
-manage.py → Command-line tool to interact with the project
+Would you like me to also expand this README to include **how to run the project** (installation + run commands) so it looks more professional for GitHub?
