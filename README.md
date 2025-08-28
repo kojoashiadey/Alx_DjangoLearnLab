@@ -1,7 +1,3 @@
-Here’s a polished rephrased version of your **README.md**:
-
----
-
 # LibraryProject
 
 This is my first Django project, created as part of the *Introduction to Django* assignment.
@@ -18,7 +14,3 @@ This is my first Django project, created as part of the *Introduction to Django*
 * **settings.py** → Contains the project’s configurations
 * **urls.py** → Defines the URL patterns and routing
 * **manage.py** → Command-line tool to interact with the project
-
----
-
-Would you like me to also expand this README to include **how to run the project** (installation + run commands) so it looks more professional for GitHub?
