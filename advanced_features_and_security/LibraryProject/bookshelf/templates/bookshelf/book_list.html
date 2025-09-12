@@ -1,0 +1,25 @@
+<!-- bookshelf/templates/bookshelf/book_list.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Books</title>
+</head>
+<body>
+  <h1>Books</h1>
+  <form method="get" action="">
+    <input type="search" name="q" value="{{ q|default:''|escape }}">
+    <button type="submit">Search</button>
+  </form>
+
+  <ul>
+    {% for book in books %}
+      <li>{{ book.title|escape }} by {{ book.author|escape }}</li>
+    {% empty %}
+      <li>No books found</li>
+    {% endfor %}
+  </ul>
+
+  <p><a href="{% url 'book_create' %}">Create new book</a></p>
+</body>
+</html>
